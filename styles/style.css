@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+}
+
+/*------- Navbar start -------*/
+header {
+    height: 837px;
+    max-width: 100%;
+    background-color: #fff8f3;
+    background-image: url('../portfolio-resources/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position:bottom right;  
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 51px 230px 51px 187px;
+}
+.logo h2 {
+    font-size: 45px;
+    font-weight: 800;
+}
+.logo h2 span {
+    color: #FD6E0A;
+}
+.menu-bar{
+    display: flex;
+}
+.menu-bar ul {
+    list-style-type: none;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    padding: 19px 35px;
+}
+
+.banner {
+    display: flex;
+    position: relative;
+}
+.banner-left img {
+    margin-top: -130px;
+    margin-left: 30px;
+    margin-right: 60px;
+}
+.banner-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-right-img img{
+    position: absolute;
+    bottom: -35px;
+    right: 0px;
+    width: 584px;
+    height: 676px;
+    padding-right: 30px;
+}
+.banner-right-text h3{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-right-text h2 {
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-right-text p {
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    width: 585px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+.banner-right-text .download-btn {
+    padding: 19px 17px 19px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 30px;
+
+}
+.banner-right-text .download-btn i {
+    padding-right: 20px;
+}
+.banner-right-text .contact-btn {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    background-color: #FFF8F3;
+    padding: 19px 23px 19px 20px;
+}
+.banner-right-text .contact-btn i {
+    padding-right: 20px;
+}
+/*------- Navbar End -------*/
+
+
+/*------- About Section Start -------*/
+.about-sec {
+    height: 550px;
+    max-width: 1140px;
+    background-color: #fff8f3;
+    margin: 130px 230px;
+}
+.about-sec h2 {
+    padding-top: 131px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-sec p {
+    width: 827px;
+    height: 120px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 30px 0px 30px 0px;
+}
+.info-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    padding: 0px 179px;
+    text-align: center;
+}
+.info-sec h5 {
+    color: #757575;
+    font-size: 20px;
+    line-height: 30px;
+}
+.info-sec h4 {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
+/*------- About Section End -------*/
+
+
+
+/*------- What-i-do Section Start -------*/
+.what-i-do-sec {
+    margin-bottom: 130px;
+}
+.what-i-do-sec h2 {
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.what-i-do-sec > p {
+    height: 90px;
+    width: 909px;
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.box-model {
+    height: 377px;
+    width: 267px;
+    border-radius: 5px;
+    background: #fff;
+    padding: 30px 33px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);;
+}
+.box-model img {
+    margin-bottom: 30px;
+}
+.box-model h4 {
+    font-size: 20px;
+    color: #181818;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.box-model p {
+    color: #757575;
+    line-height: 28px;
+    height: 196px;
+    width: 201px;
+}
+.box-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 230px;
+  
+}
+/*------- What-i-do Section End -------*/
+
+
+
+/*------- Resume Section Start -------*/
+.resume-sec > h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 113px;
+}
+.resume-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 230px;
+}
+.education >h2 , .experience > h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resume-text-style h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #474747;
+}
+.resume-text-style h4 {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume-text-style p {
+    color: #757575;
+    width: 511px;
+    height: 84px;
+}
+.resume-btn {
+    display: flex;
+    justify-content: center;
+}
+.resume-btn button{
+    padding: 19px 17px 19px 31px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 113px;
+    margin-top: 50px;
+}
+.resume-btn i {
+    padding-right: 20px;
+}
+/*------- Resume Section End -------*/
+
+
+/*------- Footer Section Start -------*/
+footer {
+    height: 780px;
+    width: 100%;
+    background-color: #fff8f3;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-left h3 {
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer-left p{
+    width: 562px;
+    height: 56px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.footer-left-icons i {
+    color: #FD6E0A;
+    font-size: 24px;
+    margin-right: 24px;
+}
+.footer-right h3{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.name-box input {
+    padding: 18px 349px 18px 30px;
+    outline: none;
+    border: none;
+    margin-bottom: 24px;
+}
+.email-box input {
+    padding: 18px 349px 18px 30px;
+    outline: none;
+    border: none;
+    margin-bottom: 24px;
+}
+.message-box input {
+    padding: 18px 349px 134px 30px;
+    outline: none;
+    border: none;
+    margin-bottom: 24px;
+}
+.submit-btn button {
+    padding: 18px 39px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+/*------- Footer Section End -------*/
