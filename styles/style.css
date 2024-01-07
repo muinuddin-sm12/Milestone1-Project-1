@@ -21,7 +21,7 @@ header {
     height: 837px;
     max-width: 100%;
     background-color: #fff8f3;
-    background-image: url('../portfolio-resources/images/header_bg.png');
+    background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position:bottom right;  
 }
